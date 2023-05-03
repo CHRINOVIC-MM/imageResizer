@@ -30,6 +30,7 @@ body{
     border-radius: 5px;
     border: 2px dashed #afafaf;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .wrapper .upload-box p{
@@ -40,6 +41,21 @@ body{
 .wrapper .upload-box img{
     width: 100px;
     height: 100px;
+}
+
+.wrapper.active .upload-box{
+    border: 1px solid #000;
+}
+
+.wrapper.active .upload-box p{
+    display: none;
+}
+
+.wrapper.active .upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px;
 }
 
 .wrapper .content{
