@@ -40,3 +40,12 @@ body{
     width: 100px;
     height: 100px;
 }
+
+.wrapper .content{
+    margin-top: 28px;
+}
+
+.wrapper .row{
+    display: flex;
+    justify-content: space-between;
+}
